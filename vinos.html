@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Tarijeños - La Esencia de Tarija, Bolivia</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <!-- Navegación Fija -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="enlace">Inicio</a></li>
+            <li><a href="vinos.html" class="enlace activo">Vinos y Singani</a></li>
+            <li><a href="agricola.html" class="enlace">Productos Agrícolas</a></li>
+            <li><a href="artesanias.html" class="enlace">Artesanías</a></li>
+            <li><a href="contacto.html" class="enlace">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Vinos y Singani de Altura</h2>
+        <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 50px;">
+            Tarija es el corazón vitivinícola de Bolivia. Nuestros vinos y singani, cultivados a más de 1.700 msnm,
+            capturan el sol chapaco en cada gota.
+        </p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/Singani.jpg" alt="Singani">
+                <div class="card-content">
+                    <h3>Singani Casa Real</h3>
+                    <p>Destilado puro de moscatel de Alejandría. Ideal para chuflay o puro.</p>
+                    <div class="price">Bs. 120</div>
+                    <button class="buy-btn" onclick="comprar('Singani Real')">Comprar Ahora</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Tannat.jpeg"
+                    alt="Vino Tannat">
+                <div class="card-content">
+                    <h3>Vino Tannat Reserva</h3>
+                    <p>Intenso y afrutado, perfecto para carnes asadas tarijeñas.</p>
+                    <div class="price">Bs. 85</div>
+                    <button class="buy-btn" onclick="comprar('Vino Tannat Reserva')">Comprar Ahora</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Malbec.jpg"
+                    alt="Vino Malbec">
+                <div class="card-content">
+                    <h3>Vino Malbec Semillón</h3>
+                    <p>Blanco fresco con notas florales, de la Ruta del Vino.</p>
+                    <div class="price">Bs. 75</div>
+                    <button class="buy-btn" onclick="comprar('Vino Malbec Semillón')">Comprar Ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

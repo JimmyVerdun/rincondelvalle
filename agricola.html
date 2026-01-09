@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Tarijeños - La Esencia de Tarija, Bolivia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Navegación Fija -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="enlace">Inicio</a></li>
+            <li><a href="vinos.html" class="enlace">Vinos y Singani</a></li>
+            <li><a href="agricola.html" class="enlace activo">Productos Agrícolas</a></li>
+            <li><a href="artesanias.html" class="enlace">Artesanías</a></li>
+            <li><a href="contacto.html" class="enlace">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Productos Agrícolas Frescos</h2>
+        <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 50px;">
+            De los valles fértiles de Tarija: uvas, olivas, frutas y hortalizas que nutren la mesa boliviana.
+        </p>
+        <div class="grid">
+            <div class="card">
+                <img src="img/Moscatel.jpg"
+                    alt="Uvas">
+                <div class="card-content">
+                    <h3>Uvas Moscatel</h3>
+                    <p>Cosecha premium para singani y mesa.</p>
+                    <div class="price">Bs. 25/kg</div>
+                    <button class="buy-btn" onclick="comprar('Uvas Moscatel')">Comprar Ahora</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Aceituna.jpg"
+                    alt="Aceitunas">
+                <div class="card-content">
+                    <h3>Aceitunas Tarijeñas</h3>
+                    <p>Encurtidas artesanalmente con hierbas locales.</p>
+                    <div class="price">Bs. 18/kg</div>
+                    <button class="buy-btn" onclick="comprar('Aceitunas Tarijeñas')">Comprar Ahora</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Tomate.jpg"
+                    alt="Tomates">
+                <div class="card-content">
+                    <h3>Tomates Cherry</h3>
+                    <p>Dulces y orgánicos del Valle de la Concepción.</p>
+                    <div class="price">Bs. 12/kg</div>
+                    <button class="buy-btn" onclick="comprar('Tomates Cherry')">Comprar Ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
